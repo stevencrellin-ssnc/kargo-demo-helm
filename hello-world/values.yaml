@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: nginxdemos/hello
-  tag: "latest"
+  tag: "0.3"
   pullPolicy: IfNotPresent
 service:
   type: NodePort
